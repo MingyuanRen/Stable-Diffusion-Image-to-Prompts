@@ -1,6 +1,7 @@
 # Stable-Diffusion-Image-to-Prompts
-<img src="promptMeme.jpeg" width="400" height="500"/>
+<img src="promptMeme.jpeg" width="500" height="500"/>
 Stable-Diffusion Image-to-Prompt is a cutting-edge machine learning project that predicts text prompts from given images. By leveraging the power of the ViT-GPT2, CLIP + Prompt, and ViT models, this project achieved a 0.54 (Top 20%) score in a Kaggle competition.
+
 
 Kaggle Link: https://www.kaggle.com/competitions/stable-diffusion-image-to-prompts
 
@@ -34,6 +35,7 @@ Generate code: https://www.kaggle.com/code/wuwenmin/failed-to-reproduce-kaggle-d
 
 ### Data cleaning and validation set division
 【14w cleaning data】：https://www.kaggle.com/code/shoheiazuma/diffusiondb-data-cleansing/
+
 【29w cleaning data】：https://www.kaggle.com/code/finlay/clean-diffusiondb-and-save-target/
 
 #### Model Training Data Augmentation
@@ -41,14 +43,18 @@ https://pytorch.org/vision/stable/transforms.html
 
 ## Follow-up Ideas:
 [Generate Dataset] Learn the use of Stable Diffusion
-    Can generate new images through Stable Diffusion
-    Learn the prompt usage rules of Stable Diffusion
+ - Can generate new images through Stable Diffusion
+ - Learn the prompt usage rules of Stable Diffusion
+
+
 【Train VIT model, open source 3epoch】Train the model from image to text vector
-    Comparing the VIT model with other models
-    Comparing different loss functions
-    Contrastive Data Augmentation
-    Train multiple models with cross-validation
+ - Comparing the VIT model with other models
+ - Comparing different loss functions
+ - Contrastive Data Augmentation
+ - Train multiple models with cross-validation
+
+
 [Model Prediction] Load the trained model
-    Multiple Model Prediction
-    Data Augmentation and Multiple Prediction
-    After generating the result, the prediction size is 384 * 384, 512 * 512
+ - Multiple Model Prediction
+ - Data Augmentation and Multiple Prediction
+ - After generating the result, the prediction size is 384 * 384, 512 * 512
