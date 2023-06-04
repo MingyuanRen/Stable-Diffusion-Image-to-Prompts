@@ -47,7 +47,7 @@ https://pytorch.org/vision/stable/transforms.html
  - Learn the prompt usage rules of Stable Diffusion
 
 
-【Train VIT model, open source 3epoch】Train the model from image to text vector
+[Train VIT model, open source 3epoch] Train the model from image to text vector
  - Comparing the VIT model with other models
  - Comparing different loss functions
  - Contrastive Data Augmentation
